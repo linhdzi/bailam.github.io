@@ -1,45 +1,57 @@
-?? README.md - AI Chatbot v?i Vue.js
-?? Gi?i thi?u
-?ây là m?t ?ng d?ng AI Chatbot ???c xây d?ng b?ng Vue.js 3. Chatbot này g?i tin nh?n c?a ng??i dùng ??n API AI (Groq API) và hi?n th? ph?n h?i t? AI v?i giao di?n ??p m?t.
+ğŸ“Œ README.md - AI Chatbot with Vue.js
+ğŸ“ Introduction
+This is an AI Chatbot application built with Vue.js 3. The chatbot sends user messages to the Groq API and displays AI responses with a sleek user interface.
 
-?? Công ngh? s? d?ng
-* Vue.js 3 (Composition API, ref)
-* Axios (g?i API)
-* Tailwind CSS (thi?t k? giao di?n)
-
-
-?? src/
-??? ?? components/
-?   ??? Chatbot.vue  # Thành ph?n chính c?a chatbot
-??? ?? assets/        # Ch?a ?nh và icon (n?u c?n)
-??? App.vue           # File chính ?? render chatbot
-??? main.js           # File kh?i ch?y Vue
-??? README.md         # H??ng d?n s? d?ng
-
-?? Cài ??t & Ch?y d? án
-1?? Clone repository
+ğŸ— Technologies Used
+Vue.js 3 (Composition API, ref)
+Axios (for API requests)
+Tailwind CSS (for styling)
+âš™ Project Structure
 bash
-CopyEdit
+Copy
+Edit
+ğŸ“‚ src/
+â”‚â”€â”€ ğŸ“‚ components/
+â”‚   â”œâ”€â”€ Chatbot.vue  # Main chatbot component
+â”‚â”€â”€ ğŸ“‚ assets/        # Contains images and icons (if needed)
+â”‚â”€â”€ App.vue           # Main file to render the chatbot
+â”‚â”€â”€ main.js           # Vue entry point
+â”‚â”€â”€ README.md         # Documentation
+ğŸš€ Installation & Running the Project
+1ï¸âƒ£ Clone the repository
+
+bash
+Copy
+Edit
 git clone https://github.com/your-repo/chatbot-vue.git
 cd chatbot-vue
-2?? Cài ??t dependencies
+2ï¸âƒ£ Install dependencies
+
 bash
-CopyEdit
+Copy
+Edit
 npm install
-3?? Ch?y ?ng d?ng
+3ï¸âƒ£ Run the application
+
 bash
-CopyEdit
+Copy
+Edit
 npm run dev
+ğŸ”¥ How the Chatbot Works
+The user enters a message and presses Enter or Send.
+The message is displayed in the chat interface.
+The AI API (Groq API) processes the message and returns a response.
+The AI's response is displayed in the chat interface.
+ğŸ›  Configuring the API Key
+You need to add your API key to the .env file before running the project:
 
-?? Cách ho?t ??ng c?a Chatbot
-1. Ng??i dùng nh?p tin nh?n và nh?n Enter ho?c G?i.
-2. Tin nh?n ???c hi?n th? trên giao di?n.
-3. API AI (Groq API) x? lı và tr? v? ph?n h?i.
-4. Tin nh?n c?a AI hi?n th? trên giao di?n.
-
-?? Ch?nh s?a API Key
-B?n c?n thêm API Key vào .env tr??c khi ch?y:
 bash
-CopyEdit
+Copy
+Edit
 VITE_GROQ_API_KEY=your_api_key_here
+ğŸ“Œ Notes
+If the API returns a 404 error, check the API URL.
+If there's no response from the AI, verify your API key.
+ğŸ“Œ You can customize the UI by modifying the Chatbot.vue file!
 
+ğŸ›  Happy coding! ğŸš€
