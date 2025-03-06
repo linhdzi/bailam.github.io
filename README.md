@@ -53,5 +53,11 @@ VITE_GROQ_API_KEY=your_api_key_here
 If the API returns a 404 error, check the API URL.
 If there's no response from the AI, verify your API key.
 📌 You can customize the UI by modifying the Chatbot.vue file!
+![alt text](<Screenshot (12).png>)
+
+![alt text](<Screenshot (13).png>)
+
+
+![alt text](image.png)
 
 🛠 Happy coding! 🚀
